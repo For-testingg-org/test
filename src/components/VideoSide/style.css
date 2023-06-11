@@ -1,0 +1,18 @@
+.video-sidebar {
+    width: 300px; /* Lebar VideoSide */
+    margin-left: 20px; /* Jarak dari VideoWrap */
+  }
+  
+  /* Gunakan media query untuk responsif */
+  @media (max-width: 768px) {
+    .video-wrap {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .video-sidebar {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }

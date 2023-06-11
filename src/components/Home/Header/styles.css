@@ -1,0 +1,29 @@
+.allvid-header {
+  text-align: center;
+  min-height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(#ffdba496, #ffc7c77c);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.allvid-header h2 {
+  
+  color: #0080ff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.allvid-header p {
+  color: #a9a9a9;
+  font-weight: 500;
+  font-size: 1.6em;
+}

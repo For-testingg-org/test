@@ -54,3 +54,22 @@ section {
   padding: 1rem;
   padding-left: 0;
 }
+
+#sectionvid {
+  margin: 0 auto;
+  padding: 0rem 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  #sectionvid {
+    margin: 0 auto;
+    padding: 10rem ;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #sectionvid {
+    margin: 0 auto;
+    padding: 5rem ;
+  }
+}
